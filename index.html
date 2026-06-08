@@ -500,7 +500,7 @@ h1, h2, h3, .num, .badge, .task-title, .day-title {
         Если съешь все — это <strong>100%</strong>.<br><br>
         <strong>Процент — это простой способ сказать «сколько из ста».</strong><br><br>
         «Pro» на латыни — «из», «centum» — «сто».<br>
-        Поэпоэтому % всегда означает «из каждой сотни».
+        Поэтому % всегда означает «из каждой сотни».
       </div>
     </div>
 
@@ -683,7 +683,7 @@ h1, h2, h3, .num, .badge, .task-title, .day-title {
     <!-- Задание 2.3 -->
     <div class="card">
       <div class="task-num">★ Задание 2.3</div>
-      <div class="task-title" style="margin-bottom:12px;">Що більше?</div>
+      <div class="task-title" style="margin-bottom:12px;">Что больше?</div>
       <div id="task23"></div>
       <div class="btn-row">
         <button class="btn-check purple" onclick="check23()">Проверить ✓</button>
@@ -719,7 +719,7 @@ h1, h2, h3, .num, .badge, .task-title, .day-title {
         У тебя в кармане <strong>50 центов</strong>. Как это записать?<br><br>
         🔹 Дробь: <strong>1/2</strong> — половина евро<br>
         🔹 Десятичная дробь: <strong>0,5</strong> — пять десятых<br>
-        🔹 Процент: <strong>50%</strong> — п'ятдесят зі ста<br><br>
+        🔹 Процент: <strong>50%</strong> — пятьдесят из ста<br><br>
         Три разные записи — но это <strong>одна и та же сумма</strong>.
       </div>
     </div>
@@ -763,7 +763,7 @@ h1, h2, h3, .num, .badge, .task-title, .day-title {
     <!-- Задание 3.3 -->
     <div class="card">
       <div class="task-num">★ Задание 3.3</div>
-      <div class="task-title" style="margin-bottom:12px;">Що більше?</div>
+      <div class="task-title" style="margin-bottom:12px;">Что больше?</div>
       <div id="task33"></div>
       <div class="btn-row">
         <button class="btn-check red" onclick="check33()">Проверить ✓</button>
@@ -822,7 +822,7 @@ h1, h2, h3, .num, .badge, .task-title, .day-title {
 
     <div class="day-banner d4">
       <div class="day-title">День 4 — Всё вместе + реальнаяя жизнь</div>
-      <div class="day-sub">Три формы числа в реальных ситуаціях</div>
+      <div class="day-sub">Три формы числа в реальных ситуациях</div>
     </div>
 
     <div class="card-info">
@@ -1306,11 +1306,11 @@ function check14() {
 
 function initTask21() {
   const items = [
-    { emoji:'🍕', desc:'4 куска, з\'їдено 2', drib:'2/4 = 1/2', pct:'50' },
-    { emoji:'🍫', desc:'10 кусочков, з\'їдено 1', drib:'1/10', pct:'10' },
-    { emoji:'🥤', desc:'Стакан наполовину', drib:'1/2', pct:'50' },
-    { emoji:'🍕', desc:'4 куска, остался 1', drib:'1/4', pct:'25' },
-    { emoji:'🍫', desc:'4 частини, з\'їдено 3', drib:'3/4', pct:'75' },
+    { emoji:'🍕', desc:'4 куска, съедено 2. Сколько съедено?', drib:'2/4 = 1/2', pct:'50' },
+    { emoji:'🍫', desc:'10 кусочков, съедено 1. Сколько съедено?', drib:'1/10', pct:'10' },
+    { emoji:'🥤', desc:'Стакан наполовину. Сколько заполнено?', drib:'1/2', pct:'50' },
+    { emoji:'🍕', desc:'4 куска, остался 1. Сколько осталось?', drib:'1/4', pct:'25' },
+    { emoji:'🍫', desc:'4 частини, съедено 3. Сколько съедено?', drib:'3/4', pct:'75' },
   ];
   const wrap = document.getElementById('task21');
   wrap.innerHTML = '';
@@ -1449,10 +1449,10 @@ function check23(){
 
 function initGrids24() {
   const configs=[
-    { filled:Array.from({length:25},(_,i)=>i), label:'а) Скільки % закрашено?', drib:'1/4', pct:'25' },
-    { filled:Array.from({length:50},(_,i)=>i), label:'б) Скільки % закрашено?', drib:'1/2', pct:'50' },
-    { filled:Array.from({length:75},(_,i)=>i), label:'в) Скільки % закрашено?', drib:'3/4', pct:'75' },
-    { filled:Array.from({length:10},(_,i)=>i), label:'г) Скільки % закрашено?', drib:'1/10', pct:'10' },
+    { filled:Array.from({length:25},(_,i)=>i), label:'а) Сколько % закрашено?', drib:'1/4', pct:'25' },
+    { filled:Array.from({length:50},(_,i)=>i), label:'б) Сколько % закрашено?', drib:'1/2', pct:'50' },
+    { filled:Array.from({length:75},(_,i)=>i), label:'в) Сколько % закрашено?', drib:'3/4', pct:'75' },
+    { filled:Array.from({length:10},(_,i)=>i), label:'г) Сколько % закрашено?', drib:'1/10', pct:'10' },
   ];
   const wrap=document.getElementById('grids24');
   wrap.innerHTML='';
@@ -1705,7 +1705,7 @@ function reset34(){
 
 function initTask41(){
   const items=[
-    {e:'🍕',sit:'Тим з\'їв половину пиццы',askD:true,askDec:true,askP:false,d:'1/2',dec:'0,5',p:'50'},
+    {e:'🍕',sit:'Тим съел половину пиццы',askD:true,askDec:true,askP:false,d:'1/2',dec:'0,5',p:'50'},
     {e:'📚',sit:'София прочитала четверть книги',askD:true,askDec:true,askP:false,d:'1/4',dec:'0,25',p:'25'},
     {e:'⚽',sit:'Команда выиграла 75% матчей',askD:true,askDec:true,askP:false,d:'3/4',dec:'0,75',p:'75'},
     {e:'💰',sit:'Тим потратил 1/10 карманных денег',askD:false,askDec:true,askP:true,d:'1/10',dec:'0,1',p:'10'},
@@ -1761,7 +1761,7 @@ function reset41(){
 
 function initTask42(){
   const items=[
-    {sit:'🍕 Тим з\'їв половину торта',opts:['1/2','0,5','75%'],wrong:'75%'},
+    {sit:'🍕 Тим съел половину торта',opts:['1/2','0,5','75%'],wrong:'75%'},
     {sit:'🏃 Пробежала четверть марафона',opts:['25%','3/4','0,25'],wrong:'3/4'},
     {sit:'📚 10% учеников сделали д/з',opts:['1/10','0,1','1/4'],wrong:'1/4'},
     {sit:'💰 Сэкономил 75% карманных денег',opts:['0,25','3/4','75%'],wrong:'0,25'},
@@ -1797,7 +1797,7 @@ function check42(){
 
 function initTask43(){
   const items=[
-    {q:'🍕 Тим з\'їв 1/2 пиццы. София з\'їла 75%.',opts:['Тим','София'],correct:'София'},
+    {q:'🍕 Тим съел 1/2 пиццы. София съела 75%.',opts:['Тим','София'],correct:'София'},
     {q:'📚 Тим прочитал 0,5 книги. София — 1/4.',opts:['Тим','София'],correct:'Тим'},
     {q:'⚽ Тим пробежал 50%. София — 3/4.',opts:['Тим','София'],correct:'София'},
     {q:'💰 Тим потратил 0,75. София — 10%.',opts:['Тим','София'],correct:'Тим'},
@@ -1828,7 +1828,7 @@ function check43(){
 
 function initTask44(){
   const items=[
-    {text:'«Я з\'їв 1/4 торта — це 0,4 — це 40%»',ok:false,fix:'1/4 = 0,25 = 25%'},
+    {text:'«Я съел 1/4 торта — это 0,4 — это 40%»',ok:false,fix:'1/4 = 0,25 = 25%'},
     {text:'«Я пробежал половину круга — это 0,5 — это 50%»',ok:true,fix:''},
     {text:'«Сделал 1/10 д/з — это 0,1 — это 1%»',ok:false,fix:'1/10 = 0,1 = 10%'},
     {text:'«Потратил 3/4 — это 0,75 — это 75%»',ok:true,fix:''},
@@ -1861,7 +1861,7 @@ function check44(){
 
 function initTask45(){
   const items=[
-    {e:'🍕',sit:'Тим з\'їв одну п\'яту пиццы',dec:'0,2',pct:'20'},
+    {e:'🍕',sit:'Тим съел одну пятую пиццы',dec:'0,2',pct:'20'},
     {e:'📚',sit:'Прочитала сорок процентов книги',frac:'2/5',dec:'0,4'},
     {e:'⚽',sit:'Команда выиграла одну восьмую матчей',dec:'0,125',pct:'12,5'},
     {e:'💰',sit:'Потратил примерно треть карманных денег',dec:'≈0,33',pct:'≈33'},
